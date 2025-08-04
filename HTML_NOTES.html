@@ -1,0 +1,75 @@
+HTML : STRUCTURE
+CSS : STYLING
+JAVASCRIPT : LOGIC
+
+____________________________________________________
+
+HTML
+
+html file base file - index.html (Convention)
+
+<...> - elements are known as tags
+
+There are two types of tags:
+1. Opening tags - <html>
+2. Closing tags - </html>
+ Contents are placed between the opening and closing tags.
+
+
+<!DOCTYPE html> - defines the document type declaration and version of HTML
+
+Comment - <!--This is a comment-->
+
+<head> - contains metadata about the document, such as title and links to stylesheets
+<title> - specifies the title of the document, name of browser tab
+<body> - contains the content of the document, such as text, images, and links
+<h1> - Heading tag, used for main titles (largest heading)
+<h2> , <h3> , <h4>, <h5>, <h6> - Subheadings, decreasing in size
+
+(Heading tags are used in SEO...FOR EXAMPLE: if i search for "My portfolio", it will look for the <h1> tag with that text)
+
+<p> - Paragraph tag (When you want to write a sentence in the next line you should create a new paragraph tag, or we can use pre tag. Also it doesn't preserve whitespace)
+<pre> - This tag is used to display text as it is, preserving whitespace and line breaks
+
+<a> - Anchor tag, used to create hyperlinks
+href - attribute of the anchor tag, specifies the URL of the link
+
+<img> - Image tag, used to display images
+
+src - specifies the URL of the image
+height and width - specify the dimensions of the image
+(if you don't specify the height and width, the image will be displayed in its original size...also if you dont want your image to be stretched, specify just one of them and it will automatically adjust the other dimension)
+alt -  provides alternative text for the image
+
+also make sure the images are in the same folder as the HTML file and put it in a seperate folder called "images" for better organization
+
+relative url - a URL that is relative to the current document's location (it doesnt know the exact location of the file, it just knows the relative path)
+absolute url - a full URL that includes the protocol (http:// or https://) and the domain name
+assets - images, stylesheets, scripts, etc. that are used in the HTML document 
+ 
+self closing tags or empty elements - <img />, <br />, <hr /> (These tags do not have a closing tag, they are self-contained)
+
+-> Html is not case sensitive, but it is a good practice to use lowercase for tags and attributes
+
+
+-----------------------------------------------------------------------------
+
+STYLING
+
+<h1 style="color: coral;"> - Inline CSS, used to apply styles directly to an element
+style - attribute used to apply CSS styles to an element
+
+<b> - Bold text tag, used to make text bold
+<strong> - Strong text tag, used to emphasize text (also makes it bold)
+<i> - Italic text tag, used to make text italic
+<em> - Emphasized text tag, used to emphasize text (also makes it italic
+<mark> - Highlighted text tag, used to highlight text
+<small> - Smaller text tag, used to make text smaller
+<del> - Deleted text tag, used to indicate deleted text (strikethrough)
+<ins> - Inserted text tag, used to indicate inserted text (underline)
+
+<sup> - Superscript text tag, used to display text above the baseline
+<sub> - Subscript text tag, used to display text below the baseline
+
+<q> - Inline quotation tag, used to indicate a short quotation
+<abbr> - Abbreviation tag, used to indicate an abbreviation or acronym
